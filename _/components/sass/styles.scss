@@ -1,6 +1,10 @@
 @import "compass";
+@import "compass/reset";
 @import "susy";
+
 @import "compass/utilities/sprites";
+@import "compass/typography/vertical_rhythm";
+@import "breakpoint";
 
 @import "variables";
 @import "base";
