@@ -1,1 +1,248 @@
-@import url("http://media.nzherald.co.nz/webcontent/infographics/336/stag.css");@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400);html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html{font-size:100%;line-height:1.5em}header.main{background-color:#232a36;color:#c9cdcf;font-family:"Alegreya Sans SC","Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:100;height:3.25rem;letter-spacing:0.1rem;padding:1.2rem;font-size:16px;font-size:1rem;line-height:18px;line-height:1.125rem}@media (min-width: 420px){header.main{color:red}}header.main a{color:#c9cdcf;text-decoration:none}h1,h2,address{display:inline}article header{display:none}.social-sprite,.social-linkedIn,.social-mail,.social-phone,.social-resume{background-image:url('../../images/social-s02b192f146.png');background-repeat:no-repeat}.social-linkedIn{background-position:0 0}.social-linkedIn:hover,.social-linkedIn.linkedIn-hover{background-position:0 -17px}.social-mail{background-position:0 -34px}.social-mail:hover,.social-mail.mail-hover{background-position:0 -51px}.social-phone{background-position:0 -68px}.social-phone:hover,.social-phone.phone-hover{background-position:0 -85px}.social-resume{background-position:0 -102px}.social-resume:hover,.social-resume.resume-hover{background-position:0 -120px}
+@import url("http://media.nzherald.co.nz/webcontent/infographics/336/stag.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400);
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* GENERAL */
+/* line 21, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.2/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* MAIN HEADER*/
+/* line 104, social/*.png */
+.social-sprite, .social-linkedIn, .social-mail, .social-phone, .social-resume {
+  background-image: url('../../images/social-sfdd88b2235.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-linkedIn {
+  background-position: 0 0;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-linkedIn:hover, .social-linkedIn.linkedIn-hover {
+  background-position: 0 -20px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mail {
+  background-position: 0 -40px;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mail:hover, .social-mail.mail-hover {
+  background-position: 0 -60px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-phone {
+  background-position: 0 -80px;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-phone:hover, .social-phone.phone-hover {
+  background-position: 0 -100px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-resume {
+  background-position: 0 -120px;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.social-resume:hover, .social-resume.resume-hover {
+  background-position: 0 -141px;
+}
+
+/* line 26, ../components/sass/_base.scss */
+header.main {
+  background-color: #232a36;
+  color: #c9cdcf;
+  font-family: "Alegreya Sans SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  height: 3.5rem;
+  letter-spacing: 0.13rem;
+  padding: 1.2rem 0rem 1.2rem 1.8rem;
+  font-size: 15px;
+  font-size: 0.925rem;
+  line-height: 26px;
+  line-height: 1.65rem;
+}
+/* line 38, ../components/sass/_base.scss */
+header.main address a.social-mail:hover {
+  background-position: 0 -61px;
+}
+@media (min-width: 1024px) {
+  /* line 26, ../components/sass/_base.scss */
+  header.main {
+    height: 4rem;
+  }
+}
+
+/* line 50, ../components/sass/_base.scss */
+header.main address {
+  float: right;
+}
+/* line 56, ../components/sass/_base.scss */
+header.main a {
+  color: #c9cdcf;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+/* line 67, ../components/sass/_base.scss */
+header.main a:hover {
+  color: #df726b;
+}
+/* line 73, ../components/sass/_base.scss */
+header.main a.social-phone {
+  padding-right: 0.8rem;
+}
+/* line 80, ../components/sass/_base.scss */
+header.main address a {
+  padding-left: 24px;
+  margin-left: -18px;
+}
+/* line 84, ../components/sass/_base.scss */
+header.main address a span {
+  display: none;
+}
+/* line 87, ../components/sass/_base.scss */
+header.main address a.social-resume span {
+  display: inline;
+}
+@media (min-width: 1024px) {
+  /* line 91, ../components/sass/_base.scss */
+  header.main address a.social-linkedIn span, header.main address a.social-mail span, header.main address a.social-phone span {
+    display: inline;
+  }
+}
+
+/* line 97, ../components/sass/_base.scss */
+h1 {
+  font-weight: 400;
+  margin-right: 0.25rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 26px;
+  line-height: 1.65rem;
+}
+
+/* line 102, ../components/sass/_base.scss */
+h1, h2, address {
+  display: inline;
+}
+
+/* line 105, ../components/sass/_base.scss */
+h1 {
+  display: none;
+}
+@media (min-width: 600px) {
+  /* line 105, ../components/sass/_base.scss */
+  h1 {
+    display: inline;
+  }
+}
+
+/* line 111, ../components/sass/_base.scss */
+h2 {
+  font-size: 15px;
+  font-size: 0.9625rem;
+  line-height: 26px;
+  line-height: 1.65rem;
+}
+/* line 113, ../components/sass/_base.scss */
+h2 span {
+  display: none;
+}
+/* line 116, ../components/sass/_base.scss */
+h2 span.UX {
+  display: inline;
+}
+@media (min-width: 600px) {
+  /* line 121, ../components/sass/_base.scss */
+  h2 span.designer {
+    display: inline;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 126, ../components/sass/_base.scss */
+  h2 span.digital, h2 span.UI {
+    display: inline;
+  }
+}
+
+/* BODY */
+/* line 134, ../components/sass/_base.scss */
+article header {
+  display: none;
+}

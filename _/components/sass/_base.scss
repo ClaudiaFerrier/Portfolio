@@ -17,37 +17,137 @@ $rem-with-px-fallback: true;
 
 
 /* MAIN HEADER*/
+
+@import "compass/utilities/sprites";
+$social-spacing:3px;
+@import "social/*.png";
+@include all-social-sprites;
+
 header.main {
 	background-color: $mainAccent;
 	color: $mainNavColor;
 	font-family:$details-font;
 	text-transform:uppercase;
 	font-weight: 100;
-	height:3.25rem;
-	letter-spacing: 0.1rem;
-	padding: 1.2rem;
+	height:3.5rem;
+	letter-spacing: 0.13rem;
+	padding: 1.2rem 0rem 1.2rem 1.8rem;
 
-	@include adjust-font-size-to(16px, 0.75);
+	@include adjust-font-size-to(14.8px, 1.1);
 
-	@include breakpoint(420px) {
-		color:red;
+	address a.social-mail:hover {
+		background-position: 0 -61px;
+	}	
 
-	}		
+	@include breakpoint($medium) {
+		//padding: 1.2rem 3.9rem 1.2rem 1.8rem;
+		height:4rem;
+	}	
 }
-header.main a {
-	color: $mainNavColor;
-	text-decoration:none;
+
+header.main {
+	
+	address{
+		float:right;
+		span {
+			//padding-left: 1.8rem;
+		}
+	}
+	a {
+		color: $mainNavColor;
+		text-decoration:none;
+		//margin-left:2rem;
+		//margin-right:1.6rem;
+		padding-right: 2rem;
+		
+		@include breakpoint($medium) {
+		
+		}
+	}
+	a:hover {
+		color:#df726b;
+	}
+	a.social-linkedIn {
+		//margin-left:2.4rem;
+	}
+	a.social-phone {
+		padding-right:0.8rem;
+	}
+	a.social-phone span {
+		//padding-left: 1.6rem;
+	}
+	address {
+		a {
+			padding-left:24px;
+			margin-left:-18px;
+		}
+		a span{
+			display:none;
+		}
+		a.social-resume span{
+			display:inline;
+		}
+		@include breakpoint($medium) {	
+			a.social-linkedIn span, a.social-mail span, a.social-phone span  {
+				display:inline;
+			}
+		}
+	}
+}
+h1 {
+	font-weight:400;
+	margin-right: 0.25rem;
+	@include adjust-font-size-to(15px, 1.1);
 }
 h1, h2, address {
 	display: inline;
 }
+h1 {
+	display:none;
+	@include breakpoint($small) {	
+		display:inline;
+	}
+}	
+h2 {
+	@include adjust-font-size-to(15.4px, 1.1);
+	span{
+		display:none;
+	}	
+	span.UX {
+		display:inline;
+	}
+
+	@include breakpoint($small) {	
+		span.designer {
+			display:inline;
+		}
+	}
+	@include breakpoint($medium) {	
+		span.digital, span.UI {
+			display:inline;
+		}
+	}
+}
+
+
+/* BODY */
 article header {
 	display:none;
 }
 
-/* SPRITES */
-@import "compass/utilities/sprites";
-@import "social/*.png";
-@include all-social-sprites;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
