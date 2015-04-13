@@ -80,6 +80,11 @@ html {
   line-height: 1.5em;
 }
 
+/* line 18, ../components/sass/_base.scss */
+body {
+  text-align: center;
+}
+
 /* MAIN HEADER*/
 /* line 104, social/*.png */
 .social-sprite, .social-linkedIn, .social-mail, .social-phone, .social-resume {
@@ -123,33 +128,33 @@ html {
   background-position: 0 -141px;
 }
 
-/* line 26, ../components/sass/_base.scss */
+/* line 30, ../components/sass/_base.scss */
 header.main {
   background-color: #232a36;
   color: #c9cdcf;
   font-family: "Alegreya Sans SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 100;
   height: 3.5rem;
   letter-spacing: 0.13rem;
   padding: 1.2rem 0rem 1.2rem 1.8rem;
+  text-transform: uppercase;
   font-size: 15px;
   font-size: 0.925rem;
   line-height: 26px;
   line-height: 1.65rem;
 }
-/* line 38, ../components/sass/_base.scss */
+/* line 42, ../components/sass/_base.scss */
 header.main address a.social-mail:hover {
   background-position: 0 -61px;
 }
 @media (min-width: 1024px) {
-  /* line 26, ../components/sass/_base.scss */
+  /* line 30, ../components/sass/_base.scss */
   header.main {
     height: 4rem;
   }
 }
 
-/* line 50, ../components/sass/_base.scss */
+/* line 53, ../components/sass/_base.scss */
 header.main address {
   float: right;
 }
@@ -159,35 +164,35 @@ header.main a {
   text-decoration: none;
   padding-right: 2rem;
 }
-/* line 67, ../components/sass/_base.scss */
+/* line 65, ../components/sass/_base.scss */
 header.main a:hover {
   color: #df726b;
 }
-/* line 73, ../components/sass/_base.scss */
+/* line 68, ../components/sass/_base.scss */
 header.main a.social-phone {
   padding-right: 0.8rem;
 }
-/* line 80, ../components/sass/_base.scss */
+/* line 72, ../components/sass/_base.scss */
 header.main address a {
   padding-left: 24px;
   margin-left: -18px;
 }
-/* line 84, ../components/sass/_base.scss */
+/* line 76, ../components/sass/_base.scss */
 header.main address a span {
   display: none;
 }
-/* line 87, ../components/sass/_base.scss */
+/* line 79, ../components/sass/_base.scss */
 header.main address a.social-resume span {
   display: inline;
 }
 @media (min-width: 1024px) {
-  /* line 91, ../components/sass/_base.scss */
+  /* line 83, ../components/sass/_base.scss */
   header.main address a.social-linkedIn span, header.main address a.social-mail span, header.main address a.social-phone span {
     display: inline;
   }
 }
 
-/* line 97, ../components/sass/_base.scss */
+/* line 89, ../components/sass/_base.scss */
 h1 {
   font-weight: 400;
   margin-right: 0.25rem;
@@ -197,52 +202,127 @@ h1 {
   line-height: 1.65rem;
 }
 
-/* line 102, ../components/sass/_base.scss */
+/* line 94, ../components/sass/_base.scss */
 h1, h2, address {
   display: inline;
 }
 
-/* line 105, ../components/sass/_base.scss */
+/* line 97, ../components/sass/_base.scss */
 h1 {
   display: none;
 }
 @media (min-width: 600px) {
-  /* line 105, ../components/sass/_base.scss */
+  /* line 97, ../components/sass/_base.scss */
   h1 {
     display: inline;
   }
 }
 
-/* line 111, ../components/sass/_base.scss */
+/* line 103, ../components/sass/_base.scss */
 h2 {
   font-size: 15px;
   font-size: 0.9625rem;
   line-height: 26px;
   line-height: 1.65rem;
 }
-/* line 113, ../components/sass/_base.scss */
+/* line 105, ../components/sass/_base.scss */
 h2 span {
   display: none;
 }
-/* line 116, ../components/sass/_base.scss */
+/* line 108, ../components/sass/_base.scss */
 h2 span.UX {
   display: inline;
 }
 @media (min-width: 600px) {
-  /* line 121, ../components/sass/_base.scss */
+  /* line 112, ../components/sass/_base.scss */
   h2 span.designer {
     display: inline;
   }
 }
 @media (min-width: 1024px) {
-  /* line 126, ../components/sass/_base.scss */
+  /* line 117, ../components/sass/_base.scss */
   h2 span.digital, h2 span.UI {
     display: inline;
   }
 }
 
 /* BODY */
-/* line 134, ../components/sass/_base.scss */
+/* line 125, ../components/sass/_base.scss */
 article header {
+  color: #5a5b5d;
+  margin: 0 auto;
+  margin-top: 3.8rem;
+  max-width: 15rem;
+  width: 15rem;
+}
+/* line 131, ../components/sass/_base.scss */
+article header h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  margin-bottom: 0.72rem;
+  letter-spacing: -0.04rem;
+  font-size: 23px;
+  font-size: 1.4125rem;
+  line-height: 29px;
+  line-height: 1.8rem;
+}
+/* line 139, ../components/sass/_base.scss */
+article header p {
+  font-family: "Stag", Georgia, Times, "Times New Roman", serif;
+  font-weight: 200;
+  letter-spacing: 0.04rem;
+  font-size: 12px;
+  font-size: 0.76875rem;
+  line-height: 23px;
+  line-height: 1.425rem;
+}
+/* line 145, ../components/sass/_base.scss */
+article header hr {
+  margin-top: 1.1rem;
+  max-width: 1,8rem;
+  width: 1.8rem;
+}
+
+/* line 153, ../components/sass/_base.scss */
+.specs {
+  background-color: #232a36;
+  color: #798489;
+  font-family: "Alegreya Sans SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-size: 10px;
+  font-size: 0.59375rem;
+  line-height: 23px;
+  line-height: 1.425rem;
+}
+/* line 163, ../components/sass/_base.scss */
+.specs h4 a {
+  background-color: #1b1f28;
+  color: #798489;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  width: 100%;
+  font-size: 11px;
+  font-size: 0.66875rem;
+  line-height: 34px;
+  line-height: 2.1rem;
+}
+/* line 174, ../components/sass/_base.scss */
+.specs ul {
+  padding: 1.2rem 0 0.6rem 0;
+}
+/* line 176, ../components/sass/_base.scss */
+.specs ul li {
+  background-color: #232a36;
+  display: inline-block;
+  height: 55px;
+  padding-top: 36px;
+}
+
+/* TEMP */
+/* line 192, ../components/sass/_base.scss */
+img {
   display: none;
 }
