@@ -23,9 +23,9 @@ body {
 /* MAIN HEADER*/
 
 @import "compass/utilities/sprites";
-$social-spacing:3px;
-@import "social/*.png";
-@include all-social-sprites;
+$icons-spacing:3px;
+@import "icons/*.png";
+@include all-icons-sprites;
 
 header.main {
 	background-color: $mainAccent;
@@ -39,7 +39,7 @@ header.main {
 
 	@include adjust-font-size-to(14.8px, 1.1);
 
-	address a.social-mail:hover {
+	address a.icons-mail:hover {
 		background-position: 0 -61px;
 	}	
 
@@ -65,7 +65,7 @@ header.main {
 	a:hover {
 		color:#df726b;
 	}
-	a.social-phone {
+	a.icons-phone {
 		padding-right:0.8rem;
 	}
 	address {
@@ -76,11 +76,11 @@ header.main {
 		a span{
 			display:none;
 		}
-		a.social-resume span{
+		a.icons-resume span{
 			display:inline;
 		}
 		@include breakpoint($medium) {	
-			a.social-linkedIn span, a.social-mail span, a.social-phone span  {
+			a.icons-linkedIn span, a.icons-mail span, a.icons-phone span  {
 				display:inline;
 			}
 		}
@@ -173,11 +173,17 @@ article header {
 	}
 	ul {
 		padding: 1.2rem 0 0.6rem 0;
+		text-algin:center;
 		li {
 			background-color:$mainAccent;
 			display:inline-block;
-			height:55px;
-			padding-top:36px;
+			padding-top:16px;
+			height:36px;
+		}
+		span {
+			padding-top:3rem;
+			line-height:4rem;
+			text-align:center;
 		}
 
 	}

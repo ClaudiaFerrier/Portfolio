@@ -86,46 +86,106 @@ body {
 }
 
 /* MAIN HEADER*/
-/* line 104, social/*.png */
-.social-sprite, .social-linkedIn, .social-mail, .social-phone, .social-resume {
-  background-image: url('../../images/social-sfdd88b2235.png');
+/* line 200, icons/*.png */
+.icons-sprite, .icons-adobe, .icons-as, .icons-axure, .icons-html5, .icons-illustrator, .icons-indesign, .icons-linkedIn, .icons-mail, .icons-nifti, .icons-phone, .icons-photoshop, .icons-resume, .icons-sass, .icons-sketch, .icons-tableau, .icons-wordpress {
+  background-image: url('../../images/icons-s84a77d4a1b.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-linkedIn {
+.icons-adobe {
   background-position: 0 0;
 }
-/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-linkedIn:hover, .social-linkedIn.linkedIn-hover {
-  background-position: 0 -20px;
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-as {
+  background-position: 0 -39px;
 }
 
 /* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-mail {
-  background-position: 0 -40px;
-}
-/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-mail:hover, .social-mail.mail-hover {
-  background-position: 0 -60px;
+.icons-axure {
+  background-position: 0 -78px;
 }
 
 /* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-phone {
-  background-position: 0 -80px;
-}
-/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-phone:hover, .social-phone.phone-hover {
-  background-position: 0 -100px;
+.icons-html5 {
+  background-position: 50% -117px;
 }
 
 /* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-resume {
-  background-position: 0 -120px;
+.icons-illustrator {
+  background-position: 50% -156px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-indesign {
+  background-position: 0 -195px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-linkedIn {
+  background-position: 0 -234px;
 }
 /* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.social-resume:hover, .social-resume.resume-hover {
-  background-position: 0 -141px;
+.icons-linkedIn:hover, .icons-linkedIn.linkedIn-hover {
+  background-position: 0 -254px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mail {
+  background-position: 0 -274px;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mail:hover, .icons-mail.mail-hover {
+  background-position: 0 -294px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-nifti {
+  background-position: 0 -314px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-phone {
+  background-position: 0 -353px;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-phone:hover, .icons-phone.phone-hover {
+  background-position: 0 -373px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-photoshop {
+  background-position: 50% -393px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-resume {
+  background-position: 0 -432px;
+}
+/* line 59, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-resume:hover, .icons-resume.resume-hover {
+  background-position: 0 -453px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-sass {
+  background-position: 0 -474px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-sketch {
+  background-position: 0 -513px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tableau {
+  background-position: 0 -552px;
+}
+
+/* line 84, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-wordpress {
+  background-position: 0 -591px;
 }
 
 /* line 30, ../components/sass/_base.scss */
@@ -144,7 +204,7 @@ header.main {
   line-height: 1.65rem;
 }
 /* line 42, ../components/sass/_base.scss */
-header.main address a.social-mail:hover {
+header.main address a.icons-mail:hover {
   background-position: 0 -61px;
 }
 @media (min-width: 1024px) {
@@ -169,7 +229,7 @@ header.main a:hover {
   color: #df726b;
 }
 /* line 68, ../components/sass/_base.scss */
-header.main a.social-phone {
+header.main a.icons-phone {
   padding-right: 0.8rem;
 }
 /* line 72, ../components/sass/_base.scss */
@@ -182,12 +242,12 @@ header.main address a span {
   display: none;
 }
 /* line 79, ../components/sass/_base.scss */
-header.main address a.social-resume span {
+header.main address a.icons-resume span {
   display: inline;
 }
 @media (min-width: 1024px) {
   /* line 83, ../components/sass/_base.scss */
-  header.main address a.social-linkedIn span, header.main address a.social-mail span, header.main address a.social-phone span {
+  header.main address a.icons-linkedIn span, header.main address a.icons-mail span, header.main address a.icons-phone span {
     display: inline;
   }
 }
@@ -312,17 +372,24 @@ article header hr {
 /* line 174, ../components/sass/_base.scss */
 .specs ul {
   padding: 1.2rem 0 0.6rem 0;
+  text-algin: center;
 }
-/* line 176, ../components/sass/_base.scss */
+/* line 177, ../components/sass/_base.scss */
 .specs ul li {
   background-color: #232a36;
   display: inline-block;
-  height: 55px;
-  padding-top: 36px;
+  padding-top: 16px;
+  height: 36px;
+}
+/* line 184, ../components/sass/_base.scss */
+.specs ul span {
+  padding-top: 3rem;
+  line-height: 4rem;
+  text-align: center;
 }
 
 /* TEMP */
-/* line 192, ../components/sass/_base.scss */
+/* line 200, ../components/sass/_base.scss */
 img {
   display: none;
 }
