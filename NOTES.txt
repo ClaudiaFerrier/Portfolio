@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+http://joren.co/sass-burger/
+
+
+
+
+
+-------------------------
+
+$tiny:240px;
+$small: 600px;
+$medium: 1024px;
+$large: 1900px;
+
+
+
+
+
+TO DO
+ 
+* Windows nav text thin, too thin
+* Thicker View Prototype font
+* Hover email icon missing
+* Specs icons: more contrast. Review accent blue
+
+
+
+background-position: sprite-position($icons, new, 3px, -2px);
+

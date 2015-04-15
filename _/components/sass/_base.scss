@@ -19,14 +19,20 @@ body {
 	text-align:center;
 }
 
-
-/* MAIN HEADER*/
-
+/* SPRITES*/
 @import "compass/utilities/sprites";
+
 $icons-spacing:3px;
 @import "icons/*.png";
+
+$icons: sprite-map("icons/*.png");
+
 @include all-icons-sprites;
 
+
+
+
+/* MAIN HEADER*/
 header.main {
 	background-color: $mainAccent;
 	color: $mainNavColor;
@@ -49,10 +55,8 @@ header.main {
 }
 
 header.main {
-	
-	address{
-		float:right;
-	}
+	font-weight:300;
+	text-align:left;
 	a {
 		color: $mainNavColor;
 		text-decoration:none;
@@ -69,6 +73,7 @@ header.main {
 		padding-right:0.8rem;
 	}
 	address {
+		float:right;
 		a {
 			padding-left:24px;
 			margin-left:-18px;
@@ -76,8 +81,10 @@ header.main {
 		a span{
 			display:none;
 		}
-		a.icons-resume span{
-			display:inline;
+		@include breakpoint($tiny) {	
+			a.icons-resume span{
+				display:inline;
+			}
 		}
 		@include breakpoint($medium) {	
 			a.icons-linkedIn span, a.icons-mail span, a.icons-phone span  {
@@ -87,7 +94,7 @@ header.main {
 	}
 }
 h1 {
-	font-weight:400;
+	font-weight:600;
 	margin-right: 0.25rem;
 	@include adjust-font-size-to(15px, 1.1);
 }
@@ -138,7 +145,7 @@ article header {
 	}
 	p {
 		font-family:$primary-font;
-		font-weight:200;
+		font-weight:300;
 		letter-spacing:0.04rem;
 		@include adjust-font-size-to(12.3px, 0.95);
 	}
@@ -178,7 +185,17 @@ article header {
 			background-color:$mainAccent;
 			display:inline-block;
 			padding-top:16px;
+			margin-left:1.3rem;
 			height:36px;
+		}
+		li.icons-photoshop {
+			background-position: 50% -393px;
+		}
+		li.icons-illustrator {
+			background-position: 55% -156px;
+		}
+		li.icons-html5 {
+			background-position: 50% -117px;
 		}
 		span {
 			padding-top:3rem;
