@@ -23,10 +23,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
-		"history":
-		[
-		]
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -37,15 +34,19 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/Admin/Desktop/Portfolio-master",
-		"/Users/Admin/Desktop/Portfolio-master/_",
-		"/Users/Admin/Desktop/Portfolio-master/_/components",
-		"/Users/Admin/Desktop/Portfolio-master/_/components/sass"
-	],
 	"file_history":
 	[
+		"/C/Users/claudia.ruiz/Documents/GALLIPOLLI/Digital/ebook/SassToEbook/css/base.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/components/sass/_base.scss",
+		"/C/Users/claudia.ruiz/Documents/P/digital/index.html",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/components/sass/_variables.scss",
+		"/C/Users/claudia.ruiz/Documents/BookReview2014/FictionFantasyFood2014.html",
+		"/C/Users/claudia.ruiz/Documents/PartyPolicies/desktop/index.html",
+		"/C/Users/claudia.ruiz/Documents/PartyPolicies/desktop/css/heraldStyle.css",
+		"/C/Users/claudia.ruiz/Documents/BookReview2014/css/ReviewStyle2014.css",
+		"/C/Users/claudia.ruiz/Documents/JohnKeyAging/index2.html",
+		"/C/Users/claudia.ruiz/Documents/GALLIPOLLI/Digital/toSass/_/components/sass/styles.scss",
+		"/C/Users/claudia.ruiz/Documents/GALLIPOLLI/Digital/toSass/_/components/sass/_variables.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_base.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_layout.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_mixins.scss",
@@ -99,6 +100,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"stag",
 			"300"
 		],
 		"highlight": true,
@@ -157,7 +159,6 @@
 	{
 		"height": 0.0
 	},
-	"project": "portfolio.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -179,25 +180,10 @@
 		],
 		"width": 0.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 195.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }

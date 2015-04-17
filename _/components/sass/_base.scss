@@ -140,8 +140,7 @@ article header {
 		font-style:italic;
 		margin-bottom:0.72rem;
 		letter-spacing:-0.04rem;
-		@include adjust-font-size-to(22.6px, 1.2);
-
+		@include adjust-font-size-to(18px, 1.12);
 	}
 	p {
 		font-family:$primary-font;
@@ -154,8 +153,12 @@ article header {
 		max-width:1,8rem;
 		width:1.8rem;	
 	}
+	@include breakpoint($tiny) {	
+		h3 {
+			@include adjust-font-size-to(22.6px, 1.2);
+		}
+	}
 }
-
 
 .specs {
 	background-color:$mainAccent ;
@@ -163,7 +166,7 @@ article header {
 	font-family:$details-font;
 	text-transform:uppercase;
 	letter-spacing:0.05rem;
-	padding-bottom:1rem;
+	padding-bottom:0.6rem;
 
 	@include adjust-font-size-to(9.5px, 0.95);
 
@@ -180,14 +183,13 @@ article header {
 		}
 	}
 	ul {
-		padding: 1.2rem 0 0.6rem 0;
+		padding: 1rem 0 0rem 0;
 		text-algin:center;
 		li {
 			background-color:$mainAccent;
 			display:inline-block;
-			padding-top:16px;
-			margin-left:1.3rem;
-			height:36px;
+			width:100%;
+			background-image:none;
 		}
 		li.icons-actionscript{
 			background-position: 50% 0;
@@ -196,7 +198,7 @@ article header {
 			background-position: 50% -156px;
 		}
 		li.icons-illustrator {
-			background-position: 55% -195px;
+			background-position: 50% -195px;
 		}
 		li.icons-nifti {
 			min-width:2.5rem;
@@ -208,20 +210,39 @@ article header {
 		li.icons-sass{
 			background-position: 50% -513px;
 		}
+		li.icons-sketch{
+			background-position: 50% -552px;
+		}
+		li.icons-tableau{
+			background-position: 50% -591px;
+		}
 		li.icons-wordpress{
 			background-position: 50% -630px;
 		}
 		span {
-			padding-top:3rem;
-			line-height:4rem;
 			text-align:center;
 		}
-
+		@include breakpoint($tiny) {	
+			li{
+				background-image: url('../../images/icons-sddc36c511e.png');
+				margin-left:1.2rem;
+				width:auto;	
+				padding-top:16px;
+				height:36px;
+			}
+			span {
+				padding-top:3rem;
+				line-height:4rem;
+			}
+		}
+		@include breakpoint($medium) {	
+			li{
+				margin-left:2rem;
+			}
+		}
 	}
 
-
 }
-
 
 
 /* TEMP */
