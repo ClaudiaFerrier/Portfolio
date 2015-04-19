@@ -1,0 +1,127 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;<div class="item darkCyan">
+                  <img src="assets/img/demo-slides/touch.png" alt="Touch">
+                    <h3>Touch</h3>
+                    <h4>Can touch this</h4>
+                </div>
+                <div class="item forestGreen">
+                  <img src="assets/img/demo-slides/grab.png" alt="Grab">
+                    <h3>Grab</h3>
+                    <h4>Can grab this</h4>
+                </div>
+                <div class="item orange">
+                  <img src="assets/img/demo-slides/responsive.png" alt="Responsive">
+                    <h3>Responsive</h3>
+                    <h4>Fully responsive!</h4>
+                </div>
+
+                <div class="item yellow">
+                  <img src="assets/img/demo-slides/css3.png" alt="CSS3">
+                    <h3>CSS3</h3>
+                    <h4>3D Acceleration.</h4>
+                </div>
+
+                <div class="item dodgerBlue">
+                  <img src="assets/img/demo-slides/multi.png" alt="Multi">
+                    <h3>Multiply</h3>
+                    <h4>Owls on page.</h4>
+                </div>
+
+                <div class="item skyBlue">
+                  <img src="assets/img/demo-slides/modern.png" alt="Modern Browsers">
+                    <h3>Modern</h3>
+                    <h4>Browsers Compatibility</h4>
+                </div>
+
+                <div class="item zombieGreen">
+                  <img src="assets/img/demo-slides/zombie.png" alt="Zombie Browsers - old ones">
+                    <h3>Zombie</h3>
+                    <h4>Browsers Compatibility</h4>
+                </div>
+
+                <div class="item violet">
+                  <img src="assets/img/demo-slides/controls.png" alt="Take Control">
+                    <h3>Take Control</h3>
+                    <h4>The way you like</h4>
+                </div>
+
+                <div class="item yellowLight">
+                  <img src="assets/img/demo-slides/feather.png" alt="Light">
+                    <h3>Light</h3>
+                    <h4>As a feather</h4>
+                </div>
+
+                <div class="item steelGray">
+                  <img src="assets/img/demo-slides/tons.png" alt="Tons of Opotions">
+                    <h3>Tons</h3>
+                    <h4>of options</h4>
+                </div>
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+

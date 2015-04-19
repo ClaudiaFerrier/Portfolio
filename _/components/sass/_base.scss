@@ -17,6 +17,7 @@ $rem-with-px-fallback: true;
 
 body {
 	text-align:center;
+	background-color:$backgoundColor;
 }
 
 /* SPRITES*/
@@ -183,7 +184,7 @@ article header {
 		}
 	}
 	ul {
-		padding: 1rem 0 0rem 0;
+		padding: 1rem 0 0.7rem 0;
 		text-algin:center;
 		li {
 			background-color:$mainAccent;
@@ -241,27 +242,21 @@ article header {
 			}
 		}
 	}
+}
+/* WORK SAMPLE */
+.owl-carousel {
+	background-color:$carouselBg;
 
 }
-
-
-/* TEMP */
-
- img {
-	display:none;
+div.owl-carousel .item.first {
+	margin-left:-1.7em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.owl-item {
+	margin-bottom:-1rem;
+}
+div.owl-item a {
+	opacity: 0.35;
+}
+div.owl-item a:hover {
+	opacity: 1;
+}
