@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_/components/sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 4777,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_/components/sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -23,10 +39,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
-		"history":
-		[
-		]
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -37,40 +50,52 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/Admin/Desktop/Portfolio-master",
-		"/Users/Admin/Desktop/Portfolio-master/_",
-		"/Users/Admin/Desktop/Portfolio-master/_/components",
-		"/Users/Admin/Desktop/Portfolio-master/_/components/sass",
-		"/Users/Admin/Desktop/Portfolio-master/_/css"
-	],
 	"file_history":
 	[
-		"/Users/Admin/Desktop/Portfolio-master/_/components/sass/_base.scss",
-		"/Users/Admin/Desktop/Portfolio-master/_/components/sass/_variables.scss",
-		"/Users/Admin/Desktop/Portfolio-master/_/css/styles.css",
-		"/Users/Admin/Desktop/Portfolio-master/index.html",
-		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_base.scss",
+		"/C/Users/claudia.ruiz/Documents/P/digital/index.html",
+		"/C/Users/claudia.ruiz/Desktop/test.html",
+		"/C/Users/claudia.ruiz/Documents/P/carousel/index.html",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/responsive.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/prettify.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/custom.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/owl.theme.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/owl.carousel.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/styles.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/css/bootstrapTheme.css",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/components/sass/styles.scss",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/components/sass/_variables.scss",
+		"/C/Users/claudia.ruiz/Documents/P/digital/_/components/sass/_base.scss",
+		"/C/Users/claudia.ruiz/Documents/GALLIPOLLI/Digital/ebook/SassToEbook/css/base.css",
+		"/C/Users/claudia.ruiz/Documents/BookReview2014/FictionFantasyFood2014.html",
+		"/C/Users/claudia.ruiz/Documents/PartyPolicies/desktop/index.html",
+		"/C/Users/claudia.ruiz/Documents/PartyPolicies/desktop/css/heraldStyle.css",
+		"/C/Users/claudia.ruiz/Documents/BookReview2014/css/ReviewStyle2014.css",
+		"/C/Users/claudia.ruiz/Documents/JohnKeyAging/index2.html",
+		"/C/Users/claudia.ruiz/Documents/GALLIPOLLI/Digital/toSass/_/components/sass/styles.scss",
+		"/C/Users/claudia.ruiz/Documents/GALLIPOLLI/Digital/toSass/_/components/sass/_variables.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_base.scss",
-		"/Users/Admin/Desktop/Portfolio-master/_/components/sass/styles.scss",
-		"/Users/Admin/Desktop/Portfolio-master/config.rb",
-		"/Users/Admin/Desktop/portfolio/_/components/sass/_variables.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_layout.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_mixins.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/_modules.scss",
+		"/Users/Admin/Desktop/portfolio/_/components/sass/_variables.scss",
 		"/Users/Admin/Desktop/portfolio/_/components/sass/styles.scss",
-		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_layout.scss",
-		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_mixins.scss",
+		"/Users/Admin/Desktop/Portfolio-master/index.html",
 		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_modules.scss",
-		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_variables.scss",
 		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/styles.scss",
+		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_variables.scss",
+		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_mixins.scss",
+		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_base.scss",
+		"/Users/Admin/Desktop/exercises/Ex_Files_CSS_N_Sass/exercise files/06_07/finished/sassycompass/_/components/sass/_layout.scss",
+		"/Users/Admin/Desktop/Portfolio-master/_/components/sass/_base.scss",
 		"/Users/Admin/Desktop/sassycompass/_/components/sass/styles.scss",
 		"/Users/Admin/Desktop/sassycompass/_/components/sass/_base.scss",
+		"/Users/Admin/Desktop/Portfolio-master/_/components/sass/_variables.scss",
+		"/Users/Admin/Desktop/Portfolio-master/_/components/sass/styles.scss",
 		"/Users/Admin/Desktop/sassycompass/config.rb",
 		"/Users/Admin/Desktop/portfolio/config.rb",
 		"/Users/Admin/Desktop/portfolio/gruntfile.js",
 		"/Users/Admin/Desktop/sassycompass/index.html",
+		"/Users/Admin/Desktop/Portfolio-master/_/css/styles.css",
 		"/Users/clau/Desktop/sassycompass/index.html",
 		"/Users/clau/Desktop/sassycompass/_/components/sass/styles.scss",
 		"/Users/clau/Desktop/sassycompass/gruntfile.js",
@@ -101,13 +126,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"social",
-			";\n",
-			"inline",
-			"opac",
-			"opacity",
-			"0px",
-			".social-linkedIn",
+			"img",
+			"stag",
 			"300"
 		],
 		"highlight": true,
@@ -126,8 +146,62 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_/components/sass/_base.scss",
+					"settings":
+					{
+						"buffer_size": 4777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4733,
+								4733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_/components/sass/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -166,7 +240,6 @@
 	{
 		"height": 0.0
 	},
-	"project": "portfolio.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -188,25 +261,10 @@
 		],
 		"width": 0.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 195.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }

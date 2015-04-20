@@ -233,42 +233,24 @@
             lazyEffect : "fade",
         });
 
-
-
-        // var MoveItemsRight = function () {
-        //      $('.owl-carousel').find('item').delay(200).animate({
-        //         right: 50,
-        //         }, 'slow'
-        //         );
-        //     };
-
-        
-
-         var firstAnimation = function () {
+         var MoveRight = function () {
             $('.owl-carousel')
-            .animate({ right: 8 }, 1000 )
-            .delay(2000)
-            .animate({ right: -10 }, 1000 )
-            .stop();
+            .animate({ right: 10 }, 1000 )
+            .delay(200)
+            .animate({ right: -7 }, 1000 )
          };
 
-
+         var MoveLeft = function () {
+            $('.owl-carousel')
+            .animate({ right: 0 }, 1000 )
+         };
 
         $(window).scroll(function() {
-            if ($(this).scrollTop() < 800 ) {
-                //("someone is scrolling");
-                //MoveItemsRight();
-                //MoveItemsLeft();
-                firstAnimation();
-        }
-
-        // setTimeout( function() {    
-        //     $("#addressSubmit").click(); //submit the form after 1 second of the initial click    
-        // }, 1000); 
-
-
-
-
+            if ($(this).scrollTop() > 0 && $(this).scrollTop() < 5 ) {
+                MoveRight();
+            } else {
+                MoveLeft();
+            }
 
         });
     });
