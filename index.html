@@ -54,25 +54,50 @@
                 <hr>
             </header>
 
-            <img src="images/art1_sampleMain.jpg" alt="FightVid Training Video Platform for fighting and defense"> 
+            <img class="mainPic" src="images/art1_sampleMain.jpg" alt="FightVid Training Video Platform for fighting and defense"> 
 
             <div id="art1_sample" class="owl-carousel">
-                <div class="item first">
+                <div class="item first desk">
                     <a href="#" title="sample 1">
-                      <img src="images/art1_sample1.jpg" alt="FightVid Training Video Platform. Home page">
+                      <img src="images/art1_sample1_desk.jpg" alt="FightVid Training Video Platform. Home page">
                     </a> 
                 </div>
-                <div class="item">
+                <div class="item desk">
                     <a href="#" title="sample 2">
-                      <img src="images/art1_sample2.jpg" alt="FightVid Training Video Platform. Video Section">
+                      <img src="images/art1_sample2_desk.jpg" alt="FightVid Training Video Platform. Video Section">
                     </a>
                 </div>
-                <div class="item">
-                    <a href="#" title="sample 3">
-                      <img src="images/art1_sample3.jpg" alt="FightVid Training Video Platform. Video Section">
+                <div class="item desk">
+                    <a href="#" title="sample 2">
+                      <img src="images/art1_sample3_desk.png" alt="FightVid Training Video Platform. Video Section">
+                    </a>
+                </div>
+                <div class="item desk">
+                    <a href="#" title="sample 2">
+                      <img src="images/art1_sample3_desk.png" alt="FightVid Training Video Platform. Video Section">
                     </a>
                 </div>
 
+                <div class="item mob">
+                    <a href="#" title="sample 1">
+                      <img src="images/art1_sample1_m.png" alt="FightVid Training Video Platform. Home page">
+                    </a> 
+                </div>
+                <div class="item mob">
+                    <a href="#" title="sample 3">
+                      <img src="images/art1_sample1_m.png" alt="FightVid Training Video Platform. Video Section">
+                    </a>
+                </div>    
+                <div class="item mob">
+                    <a href="#" title="sample 4">
+                      <img src="images/art1_sample1_m.png" alt="FightVid Training Video Platform. Home page">
+                    </a> 
+                </div> 
+                <div class="item mob">
+                    <a href="#" title="sample 4">
+                      <img src="images/art1_sample1_m.png" alt="FightVid Training Video Platform. Home page">
+                    </a> 
+                </div>
             </div>
             
             <div class="specs">
@@ -185,18 +210,69 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $("#art1_sample").owlCarousel({       
-            items : 1.78,
-            //  itemsCustom : [
-            //     [3, 4],
-            //     [30, 2],
-            // ],
+
+            itemsCustom : [
+                [0, 1],
+                [400, 1.01],
+                [700, 1.25],
+                [800, 1.38],
+                [950, 1.5],
+                [1100, 1.8],
+                [1350, 2.3],
+                [1600, 2.5],
+                [1800, 2.8],
+                [2200, 6],
+            ],
+        
+            itemsScaleUp:true,
+            responsive: true,
+
             pagination : false,
             lazyLoad : true,
             lazyFollow : true,
             lazyEffect : "fade",
         });
+
+
+
+        // var MoveItemsRight = function () {
+        //      $('.owl-carousel').find('item').delay(200).animate({
+        //         right: 50,
+        //         }, 'slow'
+        //         );
+        //     };
+
+        
+
+         var firstAnimation = function () {
+            $('.owl-carousel')
+            .animate({ right: 8 }, 1000 )
+            .delay(2000)
+            .animate({ right: -10 }, 1000 )
+            .stop();
+         };
+
+
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop() < 800 ) {
+                //("someone is scrolling");
+                //MoveItemsRight();
+                //MoveItemsLeft();
+                firstAnimation();
+        }
+
+        // setTimeout( function() {    
+        //     $("#addressSubmit").click(); //submit the form after 1 second of the initial click    
+        // }, 1000); 
+
+
+
+
+
+        });
     });
 </script>
-
+s
 </body>
 </html>

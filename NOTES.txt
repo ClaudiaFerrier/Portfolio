@@ -1,6 +1,61 @@
 
 
+   {
+                      $(this).css('background-color', '#b5c3d5');
+                     }, 'fast'
 
+
+
+
+549 11 546 59168
+
+549 11 648 26645
+
+549 11 376 28468
+
+549 11 317 55284
+
+div.owl-carousel .item.mob {
+
+}
+div.owl-carousel .item.desk {
+	//display:none;
+	@include breakpoint($small) {	
+			div.owl-carousel .item.desk {
+				display:inline-block;
+			}
+	}
+}
+
+
+
+---------------------
+
+stagePadding
+Type: Number 
+Default: 0
+
+Padding left and right on stage (can see neighbours).
+
+---------------------
+
+responsiveBaseElement
+Type: DOM element 
+Default: window
+
+Set on any DOM element. If you care about non responsive browser (like ie8)
+then use it on main wrapper. This will prevent from crazy resizing.
+
+---------------------
+
+responsive
+Type: Object 
+Default: empty object
+
+Object containing responsive options. Can be set to false to remove responsive capabilities.
+
+
+----------------------------------------------------------------------------------
 
 TO DO
  

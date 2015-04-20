@@ -246,17 +246,45 @@ article header {
 /* WORK SAMPLE */
 .owl-carousel {
 	background-color:$carouselBg;
-
 }
+
 div.owl-carousel .item.first {
-	margin-left:-1.7em;
+	margin-left:-3em;
 }
 div.owl-item {
 	margin-bottom:-1rem;
 }
+
+article img.mainPic {
+	display:none;
+	@include breakpoint($small) {
+		display:inline-block;
+	}
+}
 div.owl-item a {
-	opacity: 0.35;
+	opacity: 1;
+	@include breakpoint($small) {
+		opacity: 0.35;
+	}
 }
 div.owl-item a:hover {
 	opacity: 1;
+
+}
+
+div.owl-carousel {
+	.item.desk {
+		display:none;
+	}
+	.item.mob {
+		display:block;
+	}
+	@include breakpoint($small) {	
+			.item.desk {
+				display:block;
+			}
+			.item.mob {
+				display:none;
+			}
+	}
 }
