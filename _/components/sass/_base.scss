@@ -7,11 +7,9 @@
 
 /* GENERAL */
 @include border-box-sizing;
-
 $base-font-size:16px;
 $base-line-height: 24px;
 @include establish-baseline;
-
 $rhythm-unit: "rem";
 $rem-with-px-fallback: true;
 
@@ -22,15 +20,10 @@ body {
 
 /* SPRITES*/
 @import "compass/utilities/sprites";
-
 $icons-spacing:3px;
 @import "icons/*.png";
-
 $icons: sprite-map("icons/*.png");
-
 @include all-icons-sprites;
-
-
 
 
 /* MAIN HEADER*/
@@ -47,13 +40,14 @@ header.main {
 	@include adjust-font-size-to(14.8px, 1.1);
 
 	address a.icons-mail:hover {
-		background-position: 0 -61px;
+		background-position: 0 -334px;
 	}	
 
 	@include breakpoint($medium) {
 		height:4rem;
 	}	
 }
+
 
 header.main {
 	font-weight:300;
@@ -62,10 +56,6 @@ header.main {
 		color: $mainNavColor;
 		text-decoration:none;
 		padding-right: 2rem;
-		
-		@include breakpoint($medium) {
-		
-		}
 	}
 	a:hover {
 		color:#df726b;
@@ -81,6 +71,9 @@ header.main {
 		}
 		a span{
 			display:none;
+		}
+		.icons-mail:hover, .icons-mail.mail-hover {
+		  background-position: 0 -343px;
 		}
 		@include breakpoint($tiny) {	
 			a.icons-resume span{
@@ -134,8 +127,8 @@ article header {
 	color:$mainTextColor;
 	margin: 0 auto;
 	margin-top: 3.8rem;
-	max-width:15rem;
-	width:15rem;	
+	max-width:18rem;
+	width:18rem;	
 	h3 {
 		font-family:$title-font;
 		font-style:italic;
@@ -225,7 +218,7 @@ article header {
 		}
 		@include breakpoint($tiny) {	
 			li{
-				background-image: url('../../images/icons-sddc36c511e.png');
+				background-image: url('../../images/icons-sb19daaa7ce.png');
 				margin-left:1.2rem;
 				width:auto;	
 				padding-top:16px;
@@ -288,3 +281,29 @@ div.owl-carousel {
 			}
 	}
 }
+
+/* FOOTER */
+
+footer.copyright {
+	background-color:$darkAccent;
+	color:$footerTextColor;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; 
+	height: 2.2rem;
+	letter-spacing:0.04rem;
+	text-transform:uppercase;
+	@include adjust-font-size-to(0.53rem, 1.49);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
