@@ -140,12 +140,13 @@ article header {
 		font-family:$primary-font;
 		font-weight:300;
 		letter-spacing:0.04rem;
-		@include adjust-font-size-to(12.3px, 0.95);
+		@include adjust-font-size-to(12.3px, 0.85);
 	}
 	hr {
 		margin-top:1.1rem;
 		max-width:1,8rem;
 		width:1.8rem;	
+		margin-bottom:2rem;
 	}
 	@include breakpoint($tiny) {	
 		h3 {
@@ -174,6 +175,10 @@ article header {
 			text-decoration:none;
 			width:100%;
 			@include adjust-font-size-to(10.7px, 1.4);
+		}
+		a:hover {
+			background-color:$darkAccent;
+			color:$mainNavColor;
 		}
 	}
 	ul {
@@ -236,6 +241,8 @@ article header {
 		}
 	}
 }
+
+
 /* WORK SAMPLE */
 .owl-carousel {
 	background-color:$carouselBg;
@@ -264,7 +271,6 @@ div.owl-item a:hover {
 	opacity: 1;
 
 }
-
 div.owl-carousel {
 	.item.desk {
 		display:none;
