@@ -90,7 +90,7 @@ body {
 /* SPRITES*/
 /* line 208, icons/*.png */
 .icons-sprite, .icons-actionscript, .icons-adobe, .icons-as, .icons-axure, .icons-html5, .icons-illustrator, .icons-indesign, .icons-linkedIn, .icons-mail, .icons-nifti, .icons-phone, .icons-photoshop, .icons-resume, .icons-sass, .icons-sketch, .icons-tableau, .icons-wordpress {
-  background-image: url('../../images/icons-s6538b06789.png');
+  background-image: url('../../images/icons-s7879bb3b0e.png');
   background-repeat: no-repeat;
 }
 
@@ -320,7 +320,11 @@ article.first {
   margin-top: 8rem;
 }
 
-/* line 126, ../components/sass/_base.scss */
+/* line 127, ../components/sass/_base.scss */
+article div.noHand a {
+  cursor: default;
+}
+/* line 131, ../components/sass/_base.scss */
 article header {
   color: #818282;
   margin: 0 auto;
@@ -328,7 +332,7 @@ article header {
   max-width: 18rem;
   width: 18rem;
 }
-/* line 133, ../components/sass/_base.scss */
+/* line 138, ../components/sass/_base.scss */
 article header h3 {
   color: #747474;
   font-family: Georgia, "Times New Roman", serif;
@@ -341,7 +345,7 @@ article header h3 {
   line-height: 27px;
   line-height: 1.68rem;
 }
-/* line 142, ../components/sass/_base.scss */
+/* line 147, ../components/sass/_base.scss */
 article header p {
   color: #818282;
   font-family: "Stag", Georgia, Times, "Times New Roman", serif;
@@ -352,7 +356,7 @@ article header p {
   line-height: 24px;
   line-height: 1.5rem;
 }
-/* line 149, ../components/sass/_base.scss */
+/* line 154, ../components/sass/_base.scss */
 article header hr {
   color: #b1b2b3;
   margin-top: 1.5rem;
@@ -361,12 +365,12 @@ article header hr {
   margin-bottom: 3rem;
 }
 @media (min-width: 1024px) {
-  /* line 126, ../components/sass/_base.scss */
+  /* line 131, ../components/sass/_base.scss */
   article header {
     max-width: 20rem;
     width: 20rem;
   }
-  /* line 160, ../components/sass/_base.scss */
+  /* line 165, ../components/sass/_base.scss */
   article header h3 {
     font-size: 26px;
     font-size: 1.625rem;
@@ -375,7 +379,7 @@ article header hr {
   }
 }
 
-/* line 166, ../components/sass/_base.scss */
+/* line 172, ../components/sass/_base.scss */
 .specs {
   background-color: #282f3c;
   color: #515f6d;
@@ -388,7 +392,11 @@ article header hr {
   line-height: 23px;
   line-height: 1.425rem;
 }
-/* line 177, ../components/sass/_base.scss */
+/* line 182, ../components/sass/_base.scss */
+.specs h4 {
+  border-bottom: 1px solid #515f6d;
+}
+/* line 184, ../components/sass/_base.scss */
 .specs h4 a {
   background-color: #151a26;
   color: #798489;
@@ -402,148 +410,148 @@ article header hr {
   line-height: 48px;
   line-height: 3rem;
 }
-/* line 187, ../components/sass/_base.scss */
+/* line 194, ../components/sass/_base.scss */
 .specs h4 a:hover {
   background-color: #151a26;
   color: #c9cdcf;
   text-decoration: underline;
 }
-/* line 193, ../components/sass/_base.scss */
+/* line 200, ../components/sass/_base.scss */
 .specs ul {
   padding: 1.5rem 0 0.6rem 0;
   text-algin: center;
 }
-/* line 196, ../components/sass/_base.scss */
+/* line 203, ../components/sass/_base.scss */
 .specs ul li {
   background-color: #282f3c;
   display: inline-block;
   width: 100%;
   background-image: none;
 }
-/* line 202, ../components/sass/_base.scss */
+/* line 209, ../components/sass/_base.scss */
 .specs ul li.icons-actionscript {
   background-position: 50% 0;
 }
-/* line 205, ../components/sass/_base.scss */
+/* line 212, ../components/sass/_base.scss */
 .specs ul li.icons-html5 {
   background-position: 50% -156px;
 }
-/* line 208, ../components/sass/_base.scss */
+/* line 215, ../components/sass/_base.scss */
 .specs ul li.icons-illustrator {
   background-position: 50% -195px;
 }
-/* line 211, ../components/sass/_base.scss */
+/* line 218, ../components/sass/_base.scss */
 .specs ul li.icons-nifti {
   min-width: 2.5rem;
   background-position: 50% -353px;
 }
-/* line 215, ../components/sass/_base.scss */
+/* line 222, ../components/sass/_base.scss */
 .specs ul li.icons-photoshop {
   background-position: 50% -432px;
 }
-/* line 218, ../components/sass/_base.scss */
+/* line 225, ../components/sass/_base.scss */
 .specs ul li.icons-sass {
   background-position: 50% -513px;
 }
-/* line 221, ../components/sass/_base.scss */
+/* line 228, ../components/sass/_base.scss */
 .specs ul li.icons-sketch {
   background-position: 50% -552px;
 }
-/* line 224, ../components/sass/_base.scss */
+/* line 231, ../components/sass/_base.scss */
 .specs ul li.icons-tableau {
   background-position: 50% -591px;
 }
-/* line 227, ../components/sass/_base.scss */
+/* line 234, ../components/sass/_base.scss */
 .specs ul li.icons-wordpress {
   background-position: 50% -630px;
 }
-/* line 230, ../components/sass/_base.scss */
+/* line 237, ../components/sass/_base.scss */
 .specs ul span {
   text-align: center;
 }
 @media (min-width: 330px) {
-  /* line 234, ../components/sass/_base.scss */
+  /* line 241, ../components/sass/_base.scss */
   .specs ul li {
-    background-image: url("../../images/icons-s6538b06789.png");
+    background-image: url("../../images/icons-s7879bb3b0e.png");
     margin-left: 1.2rem;
     width: auto;
     padding-top: 16px;
     height: 36px;
   }
-  /* line 241, ../components/sass/_base.scss */
+  /* line 248, ../components/sass/_base.scss */
   .specs ul span {
     padding-top: 3rem;
     line-height: 4rem;
   }
 }
 @media (min-width: 1024px) {
-  /* line 247, ../components/sass/_base.scss */
+  /* line 254, ../components/sass/_base.scss */
   .specs ul li {
     margin-left: 2rem;
   }
 }
 
 /* WORK SAMPLE */
-/* line 257, ../components/sass/_base.scss */
+/* line 264, ../components/sass/_base.scss */
 .owl-carousel {
   background-color: #dfdddd;
 }
-/* line 260, ../components/sass/_base.scss */
+/* line 267, ../components/sass/_base.scss */
 .owl-carousel .item.first {
   margin-left: -3em;
 }
 
-/* line 265, ../components/sass/_base.scss */
+/* line 272, ../components/sass/_base.scss */
 div.owl-item {
   margin-bottom: -1rem;
 }
-/* line 268, ../components/sass/_base.scss */
+/* line 275, ../components/sass/_base.scss */
 div.owl-item a {
   opacity: 1;
 }
 @media (min-width: 600px) {
-  /* line 268, ../components/sass/_base.scss */
+  /* line 275, ../components/sass/_base.scss */
   div.owl-item a {
     opacity: 0.35;
   }
 }
-/* line 274, ../components/sass/_base.scss */
+/* line 281, ../components/sass/_base.scss */
 div.owl-item a:hover {
   opacity: 1;
 }
 
-/* line 279, ../components/sass/_base.scss */
+/* line 286, ../components/sass/_base.scss */
 article img.mainPic {
   display: none;
 }
 @media (min-width: 600px) {
-  /* line 279, ../components/sass/_base.scss */
+  /* line 286, ../components/sass/_base.scss */
   article img.mainPic {
     display: inline-block;
   }
 }
 
-/* line 287, ../components/sass/_base.scss */
+/* line 294, ../components/sass/_base.scss */
 div.owl-carousel .item.desk {
   display: none;
 }
-/* line 290, ../components/sass/_base.scss */
+/* line 297, ../components/sass/_base.scss */
 div.owl-carousel .item.mob {
   display: block;
 }
 @media (min-width: 600px) {
-  /* line 294, ../components/sass/_base.scss */
+  /* line 301, ../components/sass/_base.scss */
   div.owl-carousel .item.desk {
     display: block;
   }
-  /* line 297, ../components/sass/_base.scss */
+  /* line 304, ../components/sass/_base.scss */
   div.owl-carousel .item.mob {
     display: none;
   }
 }
 
 /* FOOTER */
-/* line 305, ../components/sass/_base.scss */
+/* line 312, ../components/sass/_base.scss */
 footer.copyright {
   background-color: #151a26;
   color: #324248;

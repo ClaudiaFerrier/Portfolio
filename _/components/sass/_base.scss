@@ -123,42 +123,48 @@ h2 {
 article.first{
 	margin-top: 8rem;
 }
-article header {
-	color:$mainTextColor;
-	margin: 0 auto;
-	margin-top: 5rem;
-	max-width:18rem;
-	width:18rem;
-
-	h3 {
-		color:$mainTitleColor;
-		font-family:$title-font;
-		font-style:italic;
-		font-weight:200;
-		margin-bottom:1rem;
-		letter-spacing:-0.03rem;
-		@include adjust-font-size-to(24px, 1.12);
+article {
+	div.noHand a{
+		cursor:default;
 	}
-	p {
+
+	header {
 		color:$mainTextColor;
-		font-family:$primary-font;
-		font-weight:300;
-		letter-spacing:0.04rem;
-		@include adjust-font-size-to(13.5px, 1);
-	}
-	hr {
-		color:#b1b2b3;
-		margin-top:1.5rem;
-		max-width:1,8rem;
-		width:1.8rem;	
-		margin-bottom:3rem;
-	}
+		margin: 0 auto;
+		margin-top: 5rem;
+		max-width:18rem;
+		width:18rem;
 
-	@include breakpoint($medium) {	
-		max-width:20rem;
-		width:20rem;
 		h3 {
-			@include adjust-font-size-to(26px, 1.4);
+			color:$mainTitleColor;
+			font-family:$title-font;
+			font-style:italic;
+			font-weight:200;
+			margin-bottom:1rem;
+			letter-spacing:-0.03rem;
+			@include adjust-font-size-to(24px, 1.12);
+		}
+		p {
+			color:$mainTextColor;
+			font-family:$primary-font;
+			font-weight:300;
+			letter-spacing:0.04rem;
+			@include adjust-font-size-to(13.5px, 1);
+		}
+		hr {
+			color:#b1b2b3;
+			margin-top:1.5rem;
+			max-width:1,8rem;
+			width:1.8rem;	
+			margin-bottom:3rem;
+		}
+
+		@include breakpoint($medium) {	
+			max-width:20rem;
+			width:20rem;
+			h3 {
+				@include adjust-font-size-to(26px, 1.4);
+			}
 		}
 	}
 }
@@ -174,6 +180,7 @@ article header {
 	@include adjust-font-size-to(9.5px, 0.95);
 
 	h4 {
+		border-bottom:1px solid $specsColor;
 		a {
 			background-color:$darkAccent;
 			color:$linkColor;
@@ -232,7 +239,7 @@ article header {
 		}
 		@include breakpoint($tiny) {	
 			li{
-				background-image: url('../../images/icons-s6538b06789.png');
+				background-image: url('../../images/icons-s7879bb3b0e.png');
 				margin-left:1.2rem;
 				width:auto;	
 				padding-top:16px;
