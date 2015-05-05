@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400);
 
-
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic);
 
 
 /* GENERAL */
@@ -28,34 +28,25 @@ $icons: sprite-map("icons/*.png");
 
 /* MAIN HEADER*/
 header.main {
-	background-color: $mainAccent;
+	background-color: $darkAccent;
 	color: $mainNavColor;
 	font-family:$details-font;
-	font-weight: 100;
+	font-weight:300;
 	height:3.5rem;
 	letter-spacing: 0.13rem;
-	padding: 1.2rem 0rem 1.2rem 1.8rem;
+	padding: 1rem 0rem 1.2rem 1.8rem;
 	text-transform:uppercase;
-
-	@include adjust-font-size-to(14.8px, 1.1);
-
-	address a.icons-mail:hover {
-		background-position: 0 -334px;
-	}	
-
-	@include breakpoint($medium) {
-		height:4rem;
-	}	
-}
-
-
-header.main {
-	font-weight:300;
 	text-align:left;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10;
+	width:100%;
+
 	a {
 		color: $mainNavColor;
 		text-decoration:none;
-		padding-right: 2rem;
+		padding-right: 2.7rem;
 	}
 	a:hover {
 		color:#df726b;
@@ -73,36 +64,41 @@ header.main {
 			display:none;
 		}
 		.icons-mail:hover, .icons-mail.mail-hover {
-		  background-position: 0 -343px;
+		  background-position: 0 -334px;
 		}
-		@include breakpoint($tiny) {	
+	}	
+
+	@include adjust-font-size-to(18x, 1.1);
+
+
+	@include breakpoint($tiny) {	
 			a.icons-resume span{
 				display:inline;
 			}
 		}
 		@include breakpoint($medium) {	
-			a.icons-linkedIn span, a.icons-mail span, a.icons-phone span  {
+			height:4rem;
+			a.icons-mail span, a.icons-phone span  {
 				display:inline;
 			}
-		}
-	}
+		}	
 }
-h1 {
-	font-weight:600;
-	margin-right: 0.25rem;
-	@include adjust-font-size-to(15px, 1.1);
-}
-h1, h2, address {
-	display: inline;
-}
+
 h1 {
 	display:none;
+	font-weight:600;
+	margin-right: 0.25rem;
+	@include adjust-font-size-to(16px, 1.1);
+
 	@include breakpoint($small) {	
 		display:inline;
 	}
+}
+h2, address {
+	display: inline;
 }	
 h2 {
-	@include adjust-font-size-to(15.4px, 1.1);
+	@include adjust-font-size-to(16px, 1.1);
 	span{
 		display:none;
 	}	
@@ -123,41 +119,53 @@ h2 {
 
 
 /* BODY */
+
+article.first{
+	margin-top: 8rem;
+}
 article header {
 	color:$mainTextColor;
 	margin: 0 auto;
-	margin-top: 3.8rem;
+	margin-top: 5rem;
 	max-width:18rem;
-	width:18rem;	
+	width:18rem;
+
 	h3 {
+		color:$mainTitleColor;
 		font-family:$title-font;
 		font-style:italic;
-		margin-bottom:0.72rem;
-		letter-spacing:-0.04rem;
-		@include adjust-font-size-to(18px, 1.12);
+		font-weight:200;
+		margin-bottom:1rem;
+		letter-spacing:-0.03rem;
+		@include adjust-font-size-to(24px, 1.12);
 	}
 	p {
+		color:$mainTextColor;
 		font-family:$primary-font;
 		font-weight:300;
 		letter-spacing:0.04rem;
-		@include adjust-font-size-to(12.3px, 0.85);
+		@include adjust-font-size-to(13.5px, 1);
 	}
 	hr {
-		margin-top:1.1rem;
+		color:#b1b2b3;
+		margin-top:1.5rem;
 		max-width:1,8rem;
 		width:1.8rem;	
-		margin-bottom:2rem;
+		margin-bottom:3rem;
 	}
-	@include breakpoint($tiny) {	
+
+	@include breakpoint($medium) {	
+		max-width:20rem;
+		width:20rem;
 		h3 {
-			@include adjust-font-size-to(22.6px, 1.2);
+			@include adjust-font-size-to(26px, 1.4);
 		}
 	}
 }
 
 .specs {
 	background-color:$mainAccent ;
-	color:$linkColor;
+	color:$specsColor;
 	font-family:$details-font;
 	text-transform:uppercase;
 	letter-spacing:0.05rem;
@@ -174,15 +182,16 @@ article header {
 			letter-spacing:0.1rem;
 			text-decoration:none;
 			width:100%;
-			@include adjust-font-size-to(10.7px, 1.4);
+			@include adjust-font-size-to(16px, 2);
 		}
 		a:hover {
 			background-color:$darkAccent;
 			color:$mainNavColor;
+			text-decoration:underline;
 		}
 	}
 	ul {
-		padding: 1rem 0 0.7rem 0;
+		padding: 1.5rem 0 0.6rem 0;
 		text-algin:center;
 		li {
 			background-color:$mainAccent;
@@ -223,7 +232,7 @@ article header {
 		}
 		@include breakpoint($tiny) {	
 			li{
-				background-image: url('../../images/icons-sb19daaa7ce.png');
+				background-image: url('../../images/icons-s6538b06789.png');
 				margin-left:1.2rem;
 				width:auto;	
 				padding-top:16px;
@@ -244,15 +253,27 @@ article header {
 
 
 /* WORK SAMPLE */
+
 .owl-carousel {
 	background-color:$carouselBg;
+	
+	.item.first {
+		margin-left:-3em;
+	}
 }
 
-div.owl-carousel .item.first {
-	margin-left:-3em;
-}
 div.owl-item {
 	margin-bottom:-1rem;
+
+	a {
+		opacity: 1;
+		@include breakpoint($small) {
+			opacity: 0.35;
+		}
+	}
+	a:hover {
+		opacity: 1;
+	}	
 }
 
 article img.mainPic {
@@ -261,16 +282,7 @@ article img.mainPic {
 		display:inline-block;
 	}
 }
-div.owl-item a {
-	opacity: 1;
-	@include breakpoint($small) {
-		opacity: 0.35;
-	}
-}
-div.owl-item a:hover {
-	opacity: 1;
 
-}
 div.owl-carousel {
 	.item.desk {
 		display:none;
