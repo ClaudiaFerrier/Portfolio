@@ -181,7 +181,7 @@ article {
 	@include adjust-font-size-to(9.5px, 0.95);
 
 	h4 {
-		border-bottom:1px solid $specsColor;
+		border-bottom:1px solid $specsColorLine;
 		a {
 			background-color:$darkAccent;
 			color:$linkColor;
@@ -291,22 +291,6 @@ article img.mainPic {
 	}
 }
 
-div.owl-carousel {
-	.item.desk {
-		display:none;
-	}
-	.item.mob {
-		display:block;
-	}
-	@include breakpoint($small) {	
-			.item.desk {
-				display:block;
-			}
-			.item.mob {
-				display:none;
-			}
-	}
-}
 
 .owl-theme .owl-controls .owl-buttons div {
     background-attachment: scroll;
